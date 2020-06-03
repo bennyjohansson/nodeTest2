@@ -8,11 +8,13 @@ app.use(bodyParser.urlencoded({ extended: false }));
  
 app.get("/", (req, res, next) => {
 
-    res.send("Welcome to ekosim");
+    res.json("Welcome to ekosim");
 
 });
 
 const port = process.env.port || 3000;
 app.listen(port, function() {
+
+
     console.log("Node server startedd");
 });
