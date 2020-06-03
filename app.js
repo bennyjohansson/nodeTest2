@@ -8,7 +8,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
  
 app.get("/", (req, res, next) => {
 
-    res.json(["Welcome to ekosim]");
+    res.json(["Welcome to ekosim"]);
 
 });
 
